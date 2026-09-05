@@ -1,0 +1,26 @@
+{
+  "name": "playwright-mcp-agents",
+  "version": "1.0.0",
+  "description": "Playwright test project with MCP agents for VS Code integration",
+  "type": "commonjs",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "mcp-server": "playwright run-test-mcp-server"
+  },
+  "keywords": [
+    "playwright",
+    "mcp",
+    "testing",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.4.1",
+    "typescript": "^7.0.2"
+  }
+}
